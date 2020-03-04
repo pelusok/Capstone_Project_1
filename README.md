@@ -1,1 +1,12 @@
-# Capstone_Project_1
+# Successful Kickstarter Campaigns and Why They Matter
+
+Kickstarter is a crowdfunding platform for creative projects. When companies, creative groups or indviduals have an idea for a project that requires additional funding, they can submit their projects to the Kickstarter platform in order to garner public support and funding. Instead of raising funds in a traditional manner through a venture capital group, crowdfunding puts the foundation of a product or project into the hands of the backers who pledge money to the campaign. This platform provides a space whree campaigns can both ask for funding, and provide incentives and rewards to those who back the project. For example, this can be in the form of early access to a documentary being made when you pledge x amount of money before a certain date, or limited edition dice made of high quality material when you pledge x amount of money before a certain date. Companies drum up support and funding by creating incentives to recieve rewards of different tiers based on the amount of money pledged.
+
+### Problem
+Kickstarter applies a 5% fee to any successful campaigns, and collects a 3-5% payment processing fee per pledge. This fee varies between 3-5% based off of the pledge amount. Based upon this fee structure, successful campaigns generate money for both Kickstarter and the campaign, while failed campaigns take up resources and time without generating processes for the company or the campaign. The ability to determine what makes up a successful Kickstarter campaign would significantly benefit both stakeholders. In order for Kickstarter to continue their success and remain competitive against other crowdfunding platforms, it is imperative that campaigns succeed with funding that reaches and exceeds goals, in order to collect pledge based fees and a 5% campaign success fee. The greater the success of a campaign, the greater success for the company.
+
+### Data
+[Data](www.kaggle.com/kemical/kickstarter-projects#ks-projects-201901.csv) was sourced from Kaggle. The dataset includes 15 columns and over 378k rows of campaign data. 
+
+### How will this problem be solved?
+Define success by separating fully funded campaigns and campaigns that exceeded funding goals from campaigns that were cancelled, suspended, or failed. Examine correlations between successful campaigns and identify key metrics, as well as changes over time with successful campaign funding. Create a predicitive model which will help Kickstarter establish the financial risk of campaign failure when accepting future campaigns.
